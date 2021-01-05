@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background-color: rgb(247, 220, 187);
+}
+
+.half-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-div img{
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+}
+.orange-marked{
+    color: orange;
+}
