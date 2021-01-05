@@ -1,10 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 160px;
 }
 .header-area{
-    background-color: rgb(247, 220, 187);
-}
+    background-color: rgb(240, 226, 210);
+    padding-top: 20px;
+   }
 
 .half-div{
     width: 40%;
@@ -17,7 +24,65 @@ body{
 }
 h1{
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 53, 61);
+}
+p{
+    color: rgb(112, 115, 143);
+    line-height: 26px;
 }
 .orange-marked{
-    color: orange;
+    color: rgb(0, 162, 255);
+}
+.action-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgba(255, 187, 0, 0.979), rgb(255, 0, 13));
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.dream-area{
+    padding-top: 30px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(181, 192, 206);
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expe-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#full-stack{
+    background-color: rgb(240, 231, 221);
+    box-shadow: 10px 5px 40px rgb(47, 46, 48);
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg,  red,  rgb(0, 128, 107));
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    background-color: rgb(240, 231, 221);
+    box-shadow: 10px 5px 40px rgb(47, 46, 48);
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(180deg,  red,  rgb(0, 128, 107));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color: orangered;
+    background-color: black;
+    padding: 5px 0;
 }
